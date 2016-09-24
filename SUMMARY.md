@@ -1,3 +1,4 @@
 # Summary
 
-* [linux](linux.md)
+* [Node Install](node-install.md)
+* [Linux](linux.md)
