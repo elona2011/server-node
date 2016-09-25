@@ -8,7 +8,7 @@ https://github.com/creationix/nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 ```
 
-安装完可能需要重启
+安装完可能需要重启bash
 
 # Install node
 
@@ -17,3 +17,13 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | b
 # nvm ls //查看所有版本
 # nvm use 4.5.0 //使用该版本
 ```
+
+# Install nginx
+
+```
+sudo yum install epel-release
+sudo yum install nginx
+sudo systemctl start nginx
+```
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7
