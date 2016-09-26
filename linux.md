@@ -4,6 +4,14 @@
 
 按数字键“1”就可以看到每个核心的使用情况
 
+## tar
+
+.tar.gz
+
+```
+tar -zxv -f filename.tar.gz
+```
+
 # CentOS 7
 
 ## 最小安装，激活网卡

@@ -18,6 +18,10 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | b
 # nvm use 4.5.0 //使用该版本
 ```
 
+*二进制安装*
+
+http://www.cnblogs.com/dubaokun/p/3558848.html
+
 # Install nginx
 
 ```
