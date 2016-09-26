@@ -4,12 +4,18 @@
 
 按数字键“1”就可以看到每个核心的使用情况
 
-## tar
+## 压缩、解压
 
 .tar.gz
 
 ```
-tar -zxv -f filename.tar.gz
+tar -zxvf filename.tar.gz
+```
+
+## 自启动
+
+```
+chkconfig vsftpd on
 ```
 
 # CentOS 7
@@ -22,5 +28,3 @@ tar -zxv -f filename.tar.gz
 将其中的ONBOOT改为yes
 # service network start
 ```
-
-a
