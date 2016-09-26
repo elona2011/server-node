@@ -22,3 +22,5 @@ tar -zxv -f filename.tar.gz
 将其中的ONBOOT改为yes
 # service network start
 ```
+
+a
