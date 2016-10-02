@@ -9,6 +9,7 @@
 .tar.gz
 
 ```
+tar -cvzf filename.tar.gz /home/yanjie 
 tar -zxvf filename.tar.gz
 ```
 
