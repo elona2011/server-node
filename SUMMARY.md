@@ -7,4 +7,3 @@
 * [Vim](vim.md)
 * [putty](putty.md)
 * [ftp](ftp.md)
-* [Grub](grub.md)

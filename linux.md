@@ -9,8 +9,14 @@
 .tar.gz
 
 ```
-tar -cvzf filename.tar.gz /home/yanjie 
+tar -cvzf filename.tar.gz /home/yanjie
 tar -zxvf filename.tar.gz
+```
+
+## yum
+
+```
+yum list available tomcat* //列出可以安装的tomcat包
 ```
 
 ## 自启动
