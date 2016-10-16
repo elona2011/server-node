@@ -37,3 +37,14 @@ https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-
 ```
 sudo yum install tomcat6
 ```
+
+# Install apache ab
+
+httpd为apache http server,httpd-tools里包含ab,apr和apr-util为ab的依赖
+
+```
+yum install apr
+yum install apr-util
+yum install httpd
+yum install httpd-tools
+```
