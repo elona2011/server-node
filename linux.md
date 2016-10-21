@@ -26,12 +26,22 @@ find / -name httpd.conf
 ```
 yum list available tomcat* //列出可以安装的tomcat包
 yum list |grep mysql
+yum list installed |grep mysql
 ```
 
 ## 自启动
 
 ```
 chkconfig vsftpd on
+```
+
+## service
+
+```bash
+service oracle start
+service oracle stop
+service oracle restart
+service oracle status
 ```
 
 # CentOS 7
