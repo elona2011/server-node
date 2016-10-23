@@ -20,6 +20,15 @@ tar -cvzf filename.tar.gz /home/yanjie
 tar -zxvf filename.tar.gz
 ```
 
+.xz
+
+```
+xz -z xxx.tar //压缩xxx.tar并删除原文件
+xz -zk xxx.tar //压缩xxx.tar并保留原文件
+xz -d xxx.tar.xz //解压xxx.tar.xz并删除原文件
+xz -dk xxx.tar.xz //解压xxx.tar.xz并保留原文件
+```
+
 ## 查找
 
 在find后面写上-name，表明要求系统按照文件名查找，最后写上httpd.conf这个目标文件名即可
