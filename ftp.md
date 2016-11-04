@@ -1,9 +1,10 @@
-# install
+# install & restart
 
 ```
 yum -y update
 yum -y install vsftpd
 vim /etc/vsftpd/vsftpd.conf
+service vsftpd restart
 ```
 
 https://www.liquidweb.com/kb/how-to-install-and-configure-vsftpd-on-centos-7/
