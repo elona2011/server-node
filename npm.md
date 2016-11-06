@@ -1,5 +1,11 @@
 # command
 
+## registry
+
+```
+npm install express --registry=https://registry.npm.taobao.org
+```
+
 ## run
 
 ``npm run`` 运行在package.json的scripts字段里定义的命令
