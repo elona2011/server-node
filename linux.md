@@ -60,6 +60,12 @@ service oracle restart
 service oracle status
 ```
 
+## ssh
+
+```
+ssh -p xxxxx root@xxx.xxx.xxx.xxx
+```
+
 # CentOS 7
 
 ## 最小安装，激活网卡
